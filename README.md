@@ -133,7 +133,7 @@ This is a backend-led take-home slice, not a hosted product. Fixed four-student 
 
 Cut: regular enrollment, frontend polish, real payment integration, retrying failed payments, cancellations, seat-hold expiry, rescheduling, email, login UI and production deployment. The stricter no-retry rule is a scope tradeoff, not an accidental inability to handle a duplicate.
 
-Time spent: I spent approximately **3.5 hours** setting up, reviewing, and testing the solution. The initial implementation was generated with AI assistance; see AI_USAGE.md for details.
+Time spent: I spent approximately **3 hours** setting up, reviewing, and testing the solution. The initial implementation was generated with AI assistance; see AI_USAGE.md for details.
 
 After release I would monitor confirmation failures, sold-out-at-payment rate, payment/booking mismatches, duplicate-key conflicts, transaction latency and lock timeouts, and roster count/seat invariants. Avoid logging children's names or tokens in operational metrics.
 
